@@ -1,3 +1,2 @@
-class Category < ActiveRecord::Base
-  has_ancestry
+class Category < ApplicationRecord
 end
