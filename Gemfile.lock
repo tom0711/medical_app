@@ -38,6 +38,8 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    ancestry (3.0.1)
+      activerecord (>= 3.2.0)
     arel (7.1.4)
     bcrypt (3.1.11)
     bindex (0.5.0)
@@ -93,7 +95,6 @@ GEM
       kaminari-core (= 1.1.1)
     kaminari-core (1.1.1)
     libv8 (3.16.14.19)
-    libv8 (3.16.14.19-x86_64-darwin-17)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -217,6 +218,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ancestry
   byebug
   cancancan
   coffee-rails (~> 4.2)

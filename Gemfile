@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'devise'
 gem 'rails_admin'
 gem 'cancancan'
+gem 'ancestry'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
