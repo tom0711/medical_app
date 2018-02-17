@@ -6,9 +6,17 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   </head>
 
   <body>
+    <nav class="navbar navbar-light bg-light">
+      <form class="form-inline">
+        <button class="btn btn-outline-success" type="button">Medical Search APP</button>
+        <button class="btn btn-outline-secondary" type="button"> HOME </button>
+        <button class="btn btn-outline-secondary" type="button">Search</button>
+      </form>
+    </nav>
     <%= yield %>
   </body>
 </html>
