@@ -1,13 +1,8 @@
 <header>
-  <ul class="nav-bar">
-    <li class="nav-item">
-      <a class="nav-link"><%= link_to "Medical Search APP", root_path %></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link"><%= link_to "Search", search_path %></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link"><%= link_to "Admin", rails_admin_path %></a>
-    </li>
-  </ul>
+<ul class="nav justify-content-end">
+  <a class="tag">Medical Search APP</a>
+  <li class="nav-item nav-link active"><%= link_to "HOME", root_path %></li>
+  <li class="nav-item nav-link"><%= link_to "Search", search_path %></li>
+  <li class="nav-item nav-link disabled"><%= link_to "Dashboard", rails_admin_path %></li>
+</ul>
 </header>

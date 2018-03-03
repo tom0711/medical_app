@@ -1,0 +1,26 @@
+Writing PID to tmp/pids/thin.pid
+Using rack adapter
+Thin web server (v1.7.2 codename Bachmanity)
+Maximum connections set to 1024
+Listening on 0.0.0.0:9292, CTRL+C to stop
+2018-03-01 07:16 fsevent_watch[2309] (FSEvents.framework) server_gone_StreamRef_callback: ERROR: FSEvents_connect() => (os/kern) exception protected (32)
+2018-03-01 07:16 fsevent_watch[2308] (FSEvents.framework) server_gone_StreamRef_callback: ERROR: FSEvents_connect() => (os/kern) exception protected (32)
+2018-03-01 07:16 fsevent_watch[2309] (FSEvents.framework) server_gone_StreamRef_callback: failed to reconnect to server! (kr 0x20)
+2018-03-01 07:16 fsevent_watch[2308] (FSEvents.framework) server_gone_StreamRef_callback: failed to reconnect to server! (kr 0x20)
+2018-03-01 07:16 fsevent_watch[2314] (FSEvents.framework) server_gone_StreamRef_callback: ERROR: FSEvents_connect() => (os/kern) exception protected (32)
+2018-03-01 07:16 fsevent_watch[2310] (FSEvents.framework) server_gone_StreamRef_callback: ERROR: FSEvents_connect() => (os/kern) exception protected (32)
+2018-03-01 07:16 fsevent_watch[2314] (FSEvents.framework) server_gone_StreamRef_callback: failed to reconnect to server! (kr 0x20)
+2018-03-01 07:16 fsevent_watch[2310] (FSEvents.framework) server_gone_StreamRef_callback: failed to reconnect to server! (kr 0x20)
+2018-03-01 07:16 fsevent_watch[2312] (FSEvents.framework) server_gone_StreamRef_callback: ERROR: FSEvents_connect() => (os/kern) exception protected (32)
+2018-03-01 07:16 fsevent_watch[2312] (FSEvents.framework) server_gone_StreamRef_callback: failed to reconnect to server! (kr 0x20)
+2018-03-01 07:16 fsevent_watch[2306] (FSEvents.framework) server_gone_StreamRef_callback: ERROR: FSEvents_connect() => (os/kern) exception protected (32)
+2018-03-01 07:16 fsevent_watch[2306] (FSEvents.framework) server_gone_StreamRef_callback: failed to reconnect to server! (kr 0x20)
+2018-03-01 07:16 fsevent_watch[2311] (FSEvents.framework) server_gone_StreamRef_callback: ERROR: FSEvents_connect() => (os/kern) exception protected (32)
+2018-03-01 07:16 fsevent_watch[2311] (FSEvents.framework) server_gone_StreamRef_callback: failed to reconnect to server! (kr 0x20)
+2018-03-01 07:16 fsevent_watch[2307] (FSEvents.framework) server_gone_StreamRef_callback: ERROR: FSEvents_connect() => (os/kern) exception protected (32)
+2018-03-01 07:16 fsevent_watch[2307] (FSEvents.framework) server_gone_StreamRef_callback: failed to reconnect to server! (kr 0x20)
+2018-03-01 07:16 fsevent_watch[2313] (FSEvents.framework) server_gone_StreamRef_callback: ERROR: FSEvents_connect() => (os/kern) exception protected (32)
+2018-03-01 07:16 fsevent_watch[2313] (FSEvents.framework) server_gone_StreamRef_callback: failed to reconnect to server! (kr 0x20)
+2018-03-01 07:16 fsevent_watch[2315] (FSEvents.framework) server_gone_StreamRef_callback: ERROR: FSEvents_connect() => (os/kern) exception protected (32)
+2018-03-01 07:16 fsevent_watch[2315] (FSEvents.framework) server_gone_StreamRef_callback: failed to reconnect to server! (kr 0x20)
+Exiting!

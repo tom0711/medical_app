@@ -1,34 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>MedicalApp</title>
+    <title><%= yield(:title) %></title>
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-
-    <!-- 以下Google API -->
-    <!-- <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDJhrrQZ2JozeUYwTF3h4BhNZQPCiHovG4&sensor=false"></script>
-    <script type="text/javascript">
-      function init() {
-        // 緯度経度の指定
-        var latlng = new google.maps.LatLng(35.70564,139.751891);
-        // マップの表示オプションを指定
-        var options = {
-          zoom: 17,
-          center: latlng,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        // 指定のタグにマップを表示
-        var map = new google.maps.Map(document.getElementById('maps_canvas'), options);
-      };
-      google.maps.event.addDomListener(window, 'load', init);
-    </script> -->
-
-    <%= render 'layouts/head' %>
-
   </head>
 
   <body>
