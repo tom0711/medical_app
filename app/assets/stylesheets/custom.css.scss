@@ -10,17 +10,42 @@ $gray-medium-light: #eaeaea;
   box-sizing: border-box;
 }
 
+body {
+  background-color: red;
+}
+
 /* navbar */
 
 .nav  {
-  widows: 100%;
-  font-family: 'Anton', sans-serif;
-  font-size: 2em;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gray;
 }
 
 .tag  {
   position: absolute;
   top: 0.75em;
   left: 0.5em;
+}
+
+// content
+
+.content-area  {
+  background-color: #f2f6f9;
+  border: 1px solid gray;
+  width: 100%;
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+  color: gray;
+}
+
+.content  {
+  height: 15em;
+  margin-top: 0.5em;
+  margin-left: 10%;
+  padding: 1em;
+  width: 80%;
+  box-shadow: 2px 2px;
+}
+
+.content-text  {
+  text-align: center;
 }
