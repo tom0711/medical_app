@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'unicorn-rails'
+
+gem 'unicorn'
+
 gem 'devise'
 gem 'rails_admin'
 gem 'cancancan'

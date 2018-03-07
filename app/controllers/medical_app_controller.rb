@@ -3,5 +3,6 @@ class MedicalAppController < ApplicationController
   end
 
   def search
+    @categories = Category.all
   end
 end
