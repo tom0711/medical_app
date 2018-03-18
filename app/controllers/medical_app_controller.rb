@@ -4,5 +4,7 @@ class MedicalAppController < ApplicationController
 
   def search
     @categories = Category.all
+    @body_regions = BodyRegion.all
+    @symptoms = Symptom.all
   end
 end

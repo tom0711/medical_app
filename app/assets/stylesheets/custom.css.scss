@@ -38,14 +38,20 @@ body {
 }
 
 .content  {
-  height: 15em;
+  height: 25em;
   margin-top: 0.5em;
   margin-left: 10%;
   margin-bottom: 0.5em;
   padding: 1em;
   width: 80%;
   box-shadow: 2px 2px;
-  overflow: scroll; /* スクロールバーを表示(※) */
+  overflow: scroll;
+}
+
+.content-background  {
+  background-image: url(search_background.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .content-text  {
@@ -53,11 +59,27 @@ body {
 }
 
 #symptom-list  {
-  font-size: 1.7em;
+  font-size: 1.0em;
   margin: 0.2em 0.5em;
   box-shadow: 2px 2px;
-  width: 6em;
+  width: 8em;
   text-align: center;
+}
+
+.check  {
+  text-align: center;
+  width: 80%;
+  background-color: white;
+  float: right;
+  clear:none;
+}
+
+.list-group  {
+  float: left;
+  width: 18%;
+  text-align: center;
+  background-color: red;
+  border-right: 1px solid gray;
 }
 
 // .btn {
