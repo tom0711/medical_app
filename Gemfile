@@ -1,13 +1,14 @@
 source 'https://rubygems.org'
 
 gem 'unicorn-rails'
-
 gem 'unicorn'
 
 gem 'devise'
 gem 'rails_admin'
 gem 'cancancan'
 gem 'bootstrap-sass'
+gem 'kaminari'
+gem 'react-rails'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")

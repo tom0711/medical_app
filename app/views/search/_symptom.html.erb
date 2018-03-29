@@ -1,0 +1,42 @@
+<section>
+<div class="content content-area content-text content-background">
+  <p class="content-text"> - Symptom - </p>
+    <div class="body-region">
+      <h2>【 身体部位 】</h2>
+      <div id="body-region-position">
+        <% @body_regions.each.with_index(1) do |set, i| %>
+            <%= link_to set.name, search_path(set.id), class: 'list-group-item list-group-item-action list-group-item-primary', id: 'body-region-list' %>
+            <!-- <button class='list-group-item list-group-item-action list-group-item-primary button1' id='body-region-list'><%= set.name %>#</button> -->
+        <% end %>
+      </div>
+    </div>
+
+  <div class="symptom">
+    <h2>【 症状 】</h2>
+    <p id="result"></p>
+    <div class="symptom-list">
+      <% if current_page?(search_index_path) %>
+        <% @symptom.where(:body_region_id => @body_regions).find_each do |set| %>
+          <tr>
+            <td>
+              <%= check_box_tag :symptom %>
+              <%= label_tag :symptom, set.name %>
+            </td>
+          </br>
+          </tr>
+        <% end %>
+      <% else %>
+        <% @symptoms.where(:body_region_id => @body_region).find_each do |set| %>
+          <tr>
+            <td>
+              <%= check_box_tag :symptom %>
+              <%= label_tag :symptom, set.name %>
+            </td>
+          </br>
+          </tr>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
+</section>

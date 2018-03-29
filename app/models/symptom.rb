@@ -1,4 +1,5 @@
 class Symptom < ApplicationRecord
-  # belongs_to :body_region, foreign_key: "body_region_id"
-
+  def self.body_region_id
+    where(body_region_id: true)
+  end
 end
